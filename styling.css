@@ -1,0 +1,62 @@
+img{
+margin-top: 20px;
+  width: 500px;
+}
+      li{
+        display: inline;
+        margin-right: 80px;
+        font-family: monotype;
+        font-size: 18px;
+      }
+      hr{
+margin-top: 20px;
+        border-top: 3px solid gray;
+      }
+      .foto{
+
+        float: center;
+        margin: 10px auto;
+      }
+
+      a{
+        text-decoration: none;
+font-size:20px;
+
+      }
+      a:link{
+        color: black;
+      }
+      a:visited{
+        color: purple;
+      }
+      a:hover{
+      color: purple;
+      }
+      img.dish1{
+        width: 400px;
+      }
+      img.dish2{
+        width: 400px;
+      }
+      img.ikonaInsta{
+        width:20px;
+      }
+      img.ikonaFb{
+        width:20px;
+      }
+      img.ikonaTw{
+        width:20px;
+      }
+      #AboutUs{
+        float: center-right;
+        width: 300px;
+      }
+      img.downLogo{
+        width: 300px;
+        display: block;
+      float: left;
+
+      }
+      #ikonat{
+      float: left;
+      }
