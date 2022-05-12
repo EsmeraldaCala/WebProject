@@ -1,3 +1,8 @@
+body{
+  text-align: center;
+
+  background-color: #EBE8FC;
+}
 img{
 margin-top: 20px;
   width: 500px;
@@ -12,11 +17,50 @@ margin-top: 20px;
 margin-top: 20px;
         border-top: 3px solid gray;
       }
-      .foto{
+.BackFoto{
+  width: 100%;
+  height: 600px;
+  background-image: url("foto_.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 0.8;
 
-        float: center;
-        margin: 10px auto;
-      }
+}
+.TOPTEXT{
+  color: #ffffff;
+  font-size: 400%;
+  text-align: center;
+  padding: 300px 0 300px ;
+
+}
+.TOPBUTTON{
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+    display: block;
+    width: 15%;
+    border: none;
+    background-color: #5c5f5e;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  
+}
+
+      .RecentRecipes {
+        border: 3px solid #fff;
+        padding: 20px;
+        width: 75%;
+        float: left;
+    }
+    
+    .foto {
+        width: 40%;
+        float: left;
+        padding: 5px;
+        border: 0.5px solid black;
+    } 
 
       a{
         text-decoration: none;
@@ -32,24 +76,14 @@ font-size:20px;
       a:hover{
       color: purple;
       }
-      img.dish1{
-        width: 400px;
-      }
-      img.dish2{
-        width: 400px;
-      }
-      img.ikonaInsta{
-        width:20px;
-      }
-      img.ikonaFb{
-        width:20px;
-      }
-      img.ikonaTw{
+      
+      .ikon{
         width:20px;
       }
       #AboutUs{
-        float: center-right;
-        width: 300px;
+        border: 2px solid #4632b9;
+  width: 20%;
+  float: right;
       }
       img.downLogo{
         width: 300px;
@@ -60,3 +94,18 @@ font-size:20px;
       #ikonat{
       float: left;
       }
+
+      footer{
+      position: fixed;
+      bottom: 0;
+        width:100%;
+        height:60px;   /* Height of the footer */
+        background:#6cf;
+      }
+figcaption{
+  width: 450px;
+}
+
+.dish{
+  width: 300px;
+}
