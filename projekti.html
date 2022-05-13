@@ -6,25 +6,36 @@
   <link rel="stylesheet" href="styling.css">
   </head>
   <body>
-  <img src="Tastylicious.png" alt="">
-    <hr class="nr1">
-    <ul >
+   <nav>
+       <ul >
       <li> <a href="www.home.com"> Home </a></li>
         <li> <a href="www.category.com"> Recipes </a></li>
           <li> <a href="www.service.com"> Service </a></li>
           <li> <a href="www.store.com"> Store </a></li>
             <li> <a href="www.contact.com"> Contact </a></li>
+            <li> <input class="search" type="text" placeholder="Search..."></li>
     </ul>
-    <hr class="nr2">
-    <div class="BackFoto">
-<h1 class="TOPTEXT">  <b>  HEALTHY LIFESTYLE </b> <br>
-  doesn't have to be boring</h1>
+   </nav>
+  
+    
+    <div class="OverlayFoto">
+      <img src="TastyliciousWhite.png" class="UPLOGO">
+    </div>
+    <div class="BackVideo">
+      <video id="backgroundVideo" src="backgroundVideo.mp4" autoplay loop muted poster="VideoFoto.png"></video>
+      
+
+        <h1 class="TOPTEXT">   HEALTHY LIFESTYLE  </h1>
+        <p class="TOPTEXT1"> doesn't have to be boring </p>
+     
+
   <button type="button" class="TOPBUTTON"> I want to order</button>
     </div>
 
-      <h3> Top Recent Recipe</h3>
+     <div id="BelowVideo"> 
 <div class="RecentRecipes">
-      <div class="foto">
+       <h3 class="RRText"> Top Recent Recipe</h3>
+       <div class="foto">
         <figure>
             <a href="recipes">  <img class="dish" src="dish1.jpg" title="Guacamole Pasta"> </a>
             <figcaption> Guacamole Pasta</figcaption>
@@ -62,7 +73,7 @@
       te ushqimit te shendetshem ne shtepi. Ideja per ktijimin e kesaj platforme lindi rastesisht dhe papritur pikerisht ne vendin ku ndohdin magjirat: <b>kuzhine</b>. </p>
     </article>
     <hr >
-    <div >
+    <div class="BottomPart" >
       <img class="downLogo"src="Tastylicious.png" alt="">
       <div id="ikonat">
         <a href="icon"> <img class="ikon" src="insta.png" alt=""></a>
@@ -70,12 +81,15 @@
         <a href="icon"> <img class="ikon" src="twitter.jpg" alt=""></a>
       </div>
       <div class="LogIn">
-      <label for=""> Would you like to be part of our team? We would love to have people help us with new recipes</label>
-    <input type="email" name=""  placeholder="Enter your email"> 
+      <label for=""> Would you like to be part of our team? <br>
+        We would love to have people help us explore new recipes! <br> </label>
+        <label for=""> Sign in: </label>
+    <input class="SignIn" type="email" name=""  placeholder="Enter your email"> 
     </div>
     </div>
     <footer>
-      <h3> Developed with Love < 3 by Esmeralda Çala  </h3>
+     <!-- <h3> Developed with Love <3 by Esmeralda Çala  </h3>*/ -->
     </footer>
+  </div>
   </body>
 </html>

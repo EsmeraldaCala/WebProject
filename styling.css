@@ -1,36 +1,72 @@
 body{
   text-align: center;
-
+  margin: 0;
+  padding: 0;
   background-color: #EBE8FC;
 }
-img{
-margin-top: 20px;
-  width: 500px;
-}
+
       li{
         display: inline;
         margin-right: 80px;
         font-family: monotype;
         font-size: 18px;
       }
-      hr{
-margin-top: 20px;
-        border-top: 3px solid gray;
-      }
-.BackFoto{
+     
+     .search{
+       background-image: url("loupe.png" );
+       background-size: 10px;
+       background-position:0%;
+       background-repeat: no-repeat;
+       padding: 5px 2px  2px 13px;
+       border: none;
+       border-radius: 3px;
+     }
+.OverlayFoto{
   width: 100%;
-  height: 600px;
-  background-image: url("foto_.jpg");
- background-repeat: no-repeat;
- background-size: cover;
- opacity: 0.8;
+  position: static;
+}
+.UPLOGO{
+  width: 70%;
+  display: block;
+  margin: 10px auto 10px auto;
+  margin-top:200px;
+}
 
+
+#backgroundVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+ top: 0;
+ bottom: 0;
+  z-index: -1;
+}
+#toptext{
+  width: 100%;
+  height: 100%;
+ 
 }
 .TOPTEXT{
+  font-family: Times New Roman;
   color: #ffffff;
   font-size: 400%;
   text-align: center;
-  padding: 300px 0 300px ;
+  padding: 50% 0 0 0;
+  margin-bottom: 0;
+
+
+}
+.TOPTEXT1{
+  margin-top: 0;
+  font-family:Brush Script MT ;
+  color: #ffffff;
+  font-size: 300%;
+  text-align: center;
+ padding: 0 0 10px;
+ margin-bottom: 50px;
 
 }
 .TOPBUTTON{
@@ -40,16 +76,29 @@ margin-top: 20px;
     display: block;
     width: 15%;
     border: none;
-    background-color: #5c5f5e;
-    padding: 14px 28px;
+    background-color: white;
+    padding: 14px 14px;
+    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
-  
+  opacity: 0.7;
+  margin-bottom: 300px;
 }
-
+#BelowVideo{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.RRText{
+font-size: 190%;
+font-style: italic;
+color: chocolate;
+margin: 10px auto 10px auto;
+}
       .RecentRecipes {
-        border: 3px solid #fff;
+        /* border: 3px solid rgb(176, 158, 158); */
         padding: 20px;
         width: 75%;
         float: left;
@@ -57,50 +106,42 @@ margin-top: 20px;
     
     .foto {
         width: 40%;
+    
         float: left;
-        padding: 5px;
-        border: 0.5px solid black;
+        
+        margin: 10px 50px 10px 0 ;
+        
+ 
     } 
 
       a{
         text-decoration: none;
-font-size:20px;
+font-size:25px;
 
       }
       a:link{
-        color: black;
+        color: white;
       }
       a:visited{
-        color: purple;
+        color: white;
       }
       a:hover{
-      color: purple;
+      color: white;
       }
       
-      .ikon{
-        width:20px;
-      }
+      
       #AboutUs{
         border: 2px solid #4632b9;
   width: 20%;
   float: right;
       }
-      img.downLogo{
-        width: 300px;
-        display: block;
-      float: left;
-
-      }
-      #ikonat{
-      float: left;
-      }
-
+  
       footer{
       position: fixed;
       bottom: 0;
         width:100%;
         height:60px;   /* Height of the footer */
-        background:#6cf;
+       /* background:#6cf; */
       }
 figcaption{
   width: 450px;
@@ -109,3 +150,37 @@ figcaption{
 .dish{
   width: 300px;
 }
+.BottomPart{
+  width: 100%;
+  height: 150px;
+  float: left;
+  background-color: rgb(246, 233, 233);
+}
+.downLogo{
+width: 40%;
+  display: block;
+float: left;
+}
+
+#ikonat{
+  width: 20px;
+  float: left;
+  margin: 30px 5px 5px 30px;
+  display: inline;
+  }
+  .ikon{
+    width:20px;
+  }
+
+  .LogIn{
+    width: 40%;
+    float: right;
+    font-size: 130%;
+    margin: 30px 10px 10px 30px;
+  }
+  .SignIn{
+    padding: 5px 2px  2px 13px;
+       border: none;
+       border-radius: 3px;
+       margin: 5px;
+  }
