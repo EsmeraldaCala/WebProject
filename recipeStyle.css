@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #EBE8FC;
+  
+  
+  }
+  
+        li{
+          display: inline;
+          margin-right: 80px;
+          font-family: monotype;
+          font-size: 30%;
+          font-family:Arial, Helvetica, sans-serif;
+        }
+        nav{
+          background-color: white;
+        }
+       
+       .search{
+         background-image: url("loupe.png" );
+         background-size: 10px;
+         background-position:2%;
+         background-repeat: no-repeat;
+         opacity: 0.8;
+         padding: 5px 3px  3px 15px;
+         border: none;
+         border-radius: 7px;
+         position: static;
+       }
+       .Background{
+         width: 100%;
+         height: 50%;
+       }
+       .BackFoto {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+       top: 0;
+        z-index: -1;
+      }
+      .UPLOGO{
+       margin-top: 30px;
+
+      }
+.BelowFoto{
+  background-color: white;
+  height: 100em;
+  float: left;
+}
+.MENGJESI {
+  /* border: 3px solid rgb(176, 158, 158);  */
+  padding: 1em;
+ /* background-color: green; */
+ width: 80%;
+ float: left;
+ position: static;
+ margin: 10px auto 10px auto;
+
+}
+.foto {
+  
+    width: 13em;
+    float: left;
+  height: 21em;
+    background-color: rgb(232, 208, 164);
+    text-align: center;
+    margin: 10px 15px 10px 10px;
+    position: static;
+} 
+.dish{
+  width: 100%;
+}
+
+      
+      .BottomPart{
+        left: 0;
+        bottom: 0;
+        width: 100%; 
+        height: 150px;
+        background-color: rgb(244, 226, 193);
+        float: left;
+        
+      }
+  .downLogo{
+    margin-left: 10px;
+    margin-top: 10px;
+  width:40%;
+    display: block;
+  float: left;
+  }
+  
+  #ikonat{
+    width: 3%;
+    float: left;
+    margin: 30px 5px 5px 30px;
+    display: inline;
+    }
+    .ikon{
+      width:50%;
+    }
+  
+    .LogIn{
+      width: 50%;
+      float: right;
+      position: sticky;
+      /* background-color: blue; */
+      margin: 30px 0px 0px 30px;
+    }
+    .SignIn{
+      padding: 5px 2px  2px 13px;
+         border: none;
+         border-radius: 3px;
+         margin: 5px;
+    }

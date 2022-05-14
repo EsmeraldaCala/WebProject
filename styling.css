@@ -9,17 +9,20 @@ body{
         display: inline;
         margin-right: 80px;
         font-family: monotype;
-        font-size: 18px;
+        font-size: 30%;
+        font-family:Arial, Helvetica, sans-serif
       }
      
      .search{
        background-image: url("loupe.png" );
        background-size: 10px;
-       background-position:0%;
+       background-position:2%;
        background-repeat: no-repeat;
-       padding: 5px 2px  2px 13px;
+       opacity: 0.8;
+       padding: 5px 3px  3px 15px;
        border: none;
-       border-radius: 3px;
+       border-radius: 7px;
+       position: static;
      }
 .OverlayFoto{
   width: 100%;
@@ -44,19 +47,15 @@ body{
  bottom: 0;
   z-index: -1;
 }
-#toptext{
-  width: 100%;
-  height: 100%;
- 
-}
+
 .TOPTEXT{
   font-family: Times New Roman;
   color: #ffffff;
   font-size: 400%;
   text-align: center;
-  padding: 50% 0 0 0;
+  padding: 30% 0 0 0;
   margin-bottom: 0;
-
+position: static;
 
 }
 .TOPTEXT1{
@@ -67,14 +66,14 @@ body{
   text-align: center;
  padding: 0 0 10px;
  margin-bottom: 50px;
-
+ position: static;
 }
 .TOPBUTTON{
   margin-left: auto;
   margin-right: auto;
   top: 0;
     display: block;
-    width: 15%;
+    width: 13em;
     border: none;
     background-color: white;
     padding: 14px 14px;
@@ -84,35 +83,101 @@ body{
     text-align: center;
   opacity: 0.7;
   margin-bottom: 300px;
+  position: static;
 }
 #BelowVideo{
-  background-color: white;
+  background-color:white;
   width: 100%;
-  height: 100%;
+  
   float: left;
 }
-.RRText{
-font-size: 190%;
+.RRText, .AboutUs{
+font-size: 2em;
 font-style: italic;
 color: chocolate;
 margin: 10px auto 10px auto;
+position: static;
 }
       .RecentRecipes {
-        /* border: 3px solid rgb(176, 158, 158); */
-        padding: 20px;
-        width: 75%;
-        float: left;
+        /* border: 3px solid rgb(176, 158, 158);  */
+        padding: 1em;
+        /* background-color: green; */
+        width: 73%;
+        float: left; 
+        position: static;
     }
     
+    .I0MinuteRecipes {
+      /* border: 3px solid rgb(176, 158, 158);  */
+      padding: 1em;
+     /* background-color: green; */
+     width: 73%;
+     float: left;
+     position: static;
+   
+ }
     .foto {
-        width: 40%;
-    
+      
+        width: 15em;
         float: left;
-        
-        margin: 10px 50px 10px 0 ;
-        
- 
+      height: 21em;
+        background-color: rgb(232, 208, 164);
+        text-align: center;
+        margin: 10px 15px 10px 10px;
+        position: static;
     } 
+    .dish{
+      width: 100%;
+    }
+
+    .checked {
+      color: orange;
+    }
+    figcaption{
+      font-size: 100%;
+  
+    }
+    .button{
+    
+      width: 200px;
+      background-color: aqua;
+    }
+    .butoni{
+      /* margin-left: auto;
+      margin-right: auto; */
+ 
+        width: 90px;
+        border: none;
+        background-color: rgb(241, 136, 44);
+        color: white;
+        padding: 1px 1px;
+        border-radius: 3px;
+        font-size: 11px;
+        cursor: pointer;
+        text-align: center;
+      opacity: 0.7;
+      
+      position: static;
+    }
+
+    .MoreOptions{
+      margin-left: auto;
+      margin-right: auto;
+        display: block;
+        width: 18em;
+        border: none;
+         background-color: rgb(212, 90, 14); 
+        color: white;
+        padding: 20px 14px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      opacity: 0.8;
+      margin-bottom: 50px;
+      margin-top: 400px;
+      position: static;
+    }
 
       a{
         text-decoration: none;
@@ -130,53 +195,74 @@ font-size:25px;
       }
       
       
-      #AboutUs{
-        border: 2px solid #4632b9;
-  width: 20%;
-  float: right;
+      #AboutUs, .Store{
+        /* background-color: aqua; */
+        /* border: 2px solid #4632b9; */
+        position: static;
+        width: 20%;
+        float: right;
+        text-align: center;
+        display: block;
+        margin-top: 50px;
+        margin-right: 8px; 
+        
+        
+      }
+      .Pershkrimi{
+        width: 0;
+       min-width: 100%;
+       font-display: 80%;
+      }
+      .chef{
+        width: 80%;
       }
   
-      footer{
+      /* footer{
       position: fixed;
       bottom: 0;
         width:100%;
         height:60px;   /* Height of the footer */
        /* background:#6cf; */
-      }
-figcaption{
-  width: 450px;
+       
+.delivery{
+  width: 30%;
 }
+      
 
-.dish{
-  width: 300px;
-}
+
 .BottomPart{
-  width: 100%;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
   height: 150px;
+  background-color: rgb(244, 226, 193);
   float: left;
-  background-color: rgb(246, 233, 233);
+  
 }
 .downLogo{
-width: 40%;
+  margin-left: 10px;
+  margin-top: 10px;
+width:40%;
   display: block;
 float: left;
 }
 
 #ikonat{
-  width: 20px;
+  width: 3%;
   float: left;
   margin: 30px 5px 5px 30px;
   display: inline;
   }
   .ikon{
-    width:20px;
+    width:50%;
   }
 
   .LogIn{
-    width: 40%;
+    width: 50%;
     float: right;
-    font-size: 130%;
-    margin: 30px 10px 10px 30px;
+    position: sticky;
+    /* background-color: blue; */
+    margin: 30px 0px 0px 30px;
   }
   .SignIn{
     padding: 5px 2px  2px 13px;
