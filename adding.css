@@ -1,0 +1,95 @@
+.BackFoto{
+    z-index: -1;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+     top: 0;
+     bottom: 0;
+      z-index: -1;
+    
+}
+.UPLOGO{
+    width: 50%;
+    display: block;
+    margin: 10px auto 10px auto;
+    margin-top:10px;
+  }
+  .UpPart{
+      
+      opacity:1;
+      width: 100%;
+      height: 100%;
+     
+    
+  }
+.first, .second{
+  /* background-color: aqua; */
+  width: 45%;
+  display: table-row;
+  float: left;
+  margin-left: 40px;
+  margin-right: auto;
+  text-align: left;
+ 
+}
+label{
+  text-decoration:dashed;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    width: 85%;
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 20px;
+}
+fieldset{
+    width: 80%;
+    height: 91%;
+    border-color: chocolate;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    background-color: rgb(255, 255, 255);
+  margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 50px;
+   
+    
+}
+
+input{
+    display: block;
+    margin: 10px;
+    border-bottom: 1px dotted chocolate;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+   
+    display: table-cell;
+
+  }
+  label{
+    text-transform: uppercase;
+    text-decoration: black;
+  }
+
+  legend{
+    padding: 10px;
+    width: 30%;
+    background-color: white;
+    border: 1px solid chocolate;
+    color: chocolate;
+    opacity: 0.8;
+    border-radius: 5px;
+ 
+  }
+  .button{
+      background-color: chocolate;
+      color: white;
+      padding: 10px;
+      display: block;
+  }
+ 

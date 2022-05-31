@@ -134,6 +134,24 @@ a.receta{
   margin-top: 5px;
   position: static;
 }
+.TOPBUTTON{
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+    display: block;
+    width: 13em;
+    border: none;
+    color: white;
+    background-color: rgb(234, 107, 61);
+    padding: 14px 14px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  position: static;
+}
       
       .BottomPart{
         left: 0;
